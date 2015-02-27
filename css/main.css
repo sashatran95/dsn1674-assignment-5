@@ -1,3 +1,69 @@
+/*Colour Palette:
+Red-Orange: #D14719
+Orange-Yellow: #DF7E5E
+Dark red-orange: #923212
+*/
 html {
 	font-family: 'Merriweather', serif;
 }
+h1, h2 {
+	text-align: center;
+
+}
+h1 {
+	text-align: center;
+	color: white;
+	/*boxes*/
+	font-size: 3.5rem;
+	background-color: #D14719;
+	margin: 0;
+	padding: 0;
+}
+.h2cerealkilla {
+	text-align: center;
+	color: white;
+	/*boxes*/
+	font-size: 3.5rem;
+	background-color: #DF7E5E;
+	margin: 0;
+	padding: 0;
+
+}
+/*Navigations*/
+nav a: { /*texts in nav a*/
+	display: inline-block;
+	padding: 0.5rem 0.75rem ;
+	background-color: #923212;
+	color: #923212;
+	text-decoration: none;
+	border-radius: 6px;
+	width: 6em;
+}
+nav{
+	text-align: center;
+	padding: 1rem 1rem 1rem 1rem;
+	display: block;
+	background-color: #D14719;
+
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+nav li{
+	display: inline;
+	background-color: #D14719;
+	color: white;
+	border-radius: 3px;
+	padding: 0.5rem 0.75rem;
+	width: 6em;
+	font: Georgia;
+	font-size: 1.1rem;
+}
+
+li:hover{
+	background-color: #923212;
