@@ -4,7 +4,10 @@ Orange-Yellow: #DF7E5E
 Dark red-orange: #923212
 */
 html {
-	font-family: 'Merriweather', serif;
+	font: normal 100%/1.5 'Merriweather', serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 h1, h2 {
 	text-align: center;
@@ -18,6 +21,7 @@ h1 {
 	background-color: #D14719;
 	margin: 0;
 	padding: 0;
+	padding-top: 1rem;
 }
 .h2cerealkilla {
 	text-align: center;
@@ -29,29 +33,38 @@ h1 {
 	padding: 0;
 
 }
+header {
+	padding: 0 0 0.5 em;
+	background-color: #D14719;
+	text-align: center;
+}
 /*Navigations*/
 nav a: { /*texts in nav a*/
 	display: inline-block;
 	padding: 0.5rem 0.75rem ;
 	background-color: #923212;
-	color: #923212;
 	text-decoration: none;
-	border-radius: 6px;
-	width: 6em;
+	border-radius: 2px;
+/*	width: 6em;
+	border-width: 1rem;*/
+}
+*, *::before, *::after {
+	box-sizing: inherit;
+
 }
 nav{
-	text-align: center;
-	padding: 1rem 1rem 1rem 1rem;
+	padding: 0.5rem 1rem 1rem 1rem;
 	display: block;
-	background-color: #D14719;
+/*	text-align: center;
+	background-color: #D14719;*/
+	font-size: 1.5rem;
 
 }
 
-nav ul{
+nav ol{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
 
 nav li{
@@ -67,3 +80,5 @@ nav li{
 
 li:hover{
 	background-color: #923212;
+}
+/*images*/
