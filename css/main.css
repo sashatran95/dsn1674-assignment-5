@@ -85,9 +85,25 @@ nav a:hover{
 	background-color: #923212;
 }
 /*images*/
-.inset { /*changing img size*/
+.grains { /*changing img size*/
 	float: left;
-	width: 43%;
+	width: 70%;
+	margin-right: 15px;
+}
+.peanuts {
+	float: left;
+	width: 85%;
+	margin-right: 15px; 
+}
+
+.beans {
+	float: left;
+	width: 85%;
+	margin-right: 15px;
+}
+.lentils {
+	float: left;
+	width: 85%;
 	margin-right: 15px;
 
 }/*footer*/
