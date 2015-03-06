@@ -20,7 +20,8 @@ h1, h2 {
 
 }
 .legumes{
-	font-size: 1rem;
+	font-size: 2rem;
+	font-weight: bold;
 
 }
 h1 {
@@ -38,6 +39,7 @@ h1 {
 	color: white;
 	/*boxes*/
 	font-size: 3.5rem;
+	/*magnifying troubls*/
 	background-color: #DF7E5E;
 	margin: 0;
 	padding: 0;
@@ -94,21 +96,33 @@ nav a:hover{
 .inset {
 	border: 2px solid #C8C8C8;
 }
+.corn{
+	float: center;
+	width: 100%;
+}
 .grains { /*changing img size*/
 	float: left;
 	width: 45%;
-	margin-right: 15px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 .cereals {
 	float: right;
 	width: 30%;
 	margin-right: 15px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 
 }
 .quinoa {
 	float: right;
 	width: 35%;
 	margin-right: 15px;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 .peanuts {
 	float: left;
@@ -129,10 +143,12 @@ nav a:hover{
 }/*text wraps*/
 .p1{
 	clear: right;
+	margin: 1rem;
 
 }
 .p2{
 	clear: left;
+	margin: 1rem;
 }
 .dl {
 	float: left;
@@ -144,6 +160,5 @@ footer {
 	padding: 10px;
 	margin: 0;
 	color: #DF7E5E;
-	font-weight: 400;
 	text-align: center;
 }
