@@ -43,7 +43,14 @@ h1 {
 	background-color: #DF7E5E;
 	margin: 0;
 	padding: 0;
-
+}
+h3 {
+	background-color: #DF7E5E;
+	margin: 0;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
 }
 header {
 	display: block;
