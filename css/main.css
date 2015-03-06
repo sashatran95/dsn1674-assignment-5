@@ -46,21 +46,40 @@ h1 {
 	margin: 0;
 	padding: 1.5rem;
 }
-h3 {
+figcaption {
 	background-color: #DF7E5E;
 	margin: 0;
 	margin-top: 0;
-	padding: 0;
+	padding: 0.5rem;
 	text-align: center;
 	color: white;
+	margin-top: -.5em;
 }
-.h3rice {
+.figurecorn{
+	clear: both;
+	width: 100%;
+	margin: 0;
+}
+.figurecorn img{
+	width: 100%;
+}
+.figurerice {
 	float: left;
 	clear: left;
+	margin: 0;
+	width: 50%;
 }
-.h3oats {
+.figurerice img {
+	width: 100%;
+}
+.figureoats {
 	float: right;
 	clear: right;
+	margin: 0;
+	width: 50%;
+}
+.figureoats img {
+	width: 100%;
 
 }
 header {
@@ -132,33 +151,20 @@ nav a:hover{
 	float: left;
 	width: 20%;
 	margin-right: 15px;
+	clear: left;
 }
 
 .beans {
 	float: left;
 	width: 20%;
 	margin-right: 15px;
+	clear: left;
 }
 .lentils {
 	float: left;
 	width: 20%;
 	margin-right: 15px;
-}
-.corn{
-	float: center;
-	clear: both;
-	width: 100%;
-	margin-bottom: 0;
-}
-.oats{
-	float: right;
-	width: 35%;
-}
-.rice{
-	float: left;
 	clear: left;
-	width: 35%;
-
 }/*Dat Grain thingy*/
 .vector-l{
 	width: 3rem;
@@ -183,10 +189,19 @@ nav a:hover{
 }
 .dl {
 	float: left;
-}/*Legumes*/
-.ppeanuts, .pbeans, .plents{
-	clear: both;
 
+}/*Legumes*/
+.ppeanuts{
+	margin: 1rem;
+	float: left;
+}
+.pbeans{
+	margin: 1rem;
+	float: left;
+}
+.plents{
+	margin: 1rem;
+	float: left;
 
 }/*footer*/
 footer {
