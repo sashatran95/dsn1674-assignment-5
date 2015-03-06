@@ -50,12 +50,10 @@ nav a: { /*texts in nav a*/
 	text-decoration: none;
 	border-radius: 2px;
 }
-
-}
 *, *::before, *::after {
 	box-sizing: inherit;
-
 }
+
 nav{
 	padding: 0.5rem 1rem 1rem 1rem;
 /*	display: block;
@@ -83,31 +81,60 @@ nav li{
 
 nav a:hover{
 	background-color: #923212;
-}
-/*images*/
+
+}/*images*/
 .grains { /*changing img size*/
 	float: left;
-	width: 70%;
+	width: 45%;
+	margin-right: 15px;
+}
+.cereals {
+	float: right;
+	width: 40%;
+	margin-right: 15px;
+
+}
+.quinoa {
+	float: right;
+	width: 45%;
 	margin-right: 15px;
 }
 .peanuts {
 	float: left;
-	width: 85%;
-	margin-right: 15px; 
+	width: 20%;
+	margin-right: 15px;
 }
 
 .beans {
 	float: left;
-	width: 85%;
+	width: 20%;
 	margin-right: 15px;
 }
 .lentils {
 	float: left;
-	width: 85%;
+	width: 20%;
 	margin-right: 15px;
+
+}/*text wraps*/
+.p1{
+	clear: right;
+
+}
+.p2{
+	clear: left;
+}
+.dl {
+	float: left;
+}
 
 }/*footer*/
 footer {
   background-color: #D14719;
   padding: 10px;
+  clear: both;
+}
+footer p{
+	text-align: center;
+	color: #DF7E5E;
+
 }
