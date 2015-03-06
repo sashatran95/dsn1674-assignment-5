@@ -2,6 +2,7 @@
 Red-Orange: #D14719
 Orange-Yellow: #DF7E5E
 Dark red-orange: #923212
+Grey: #C8C8C8
 */
 html {
 	font: normal 100%/1.5 'Merriweather', serif;
@@ -10,11 +11,16 @@ html {
 	box-sizing: border-box;
 }
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+
 }
 h1, h2 {
 	text-align: center;
+
+}
+.legumes{
+	font-size: 1rem;
 
 }
 h1 {
@@ -24,9 +30,9 @@ h1 {
 	font-size: 3.5rem;
 	background-color: #D14719;
 	margin: 0;
-	padding: 0;
-	padding-top: 1rem;
+	padding: 1rem;
 }
+
 .h2cerealkilla {
 	text-align: center;
 	color: white;
@@ -38,51 +44,56 @@ h1 {
 
 }
 header {
+	display: block;
+	font-weight: 400;
+	color:white;
+	margin:0;
+/*
 	padding: 0 0 0.5 em;
 	background-color: #D14719;
-	text-align: center;
-}
-/*Navigations*/
-nav a: { /*texts in nav a*/
-	display: inline-block;
-	padding: 0.2em 0.5em 0.3em;
-	background-color: #923212;
-	text-decoration: none;
-	border-radius: 2px;
+	text-align: center;*/
 }
 *, *::before, *::after {
 	box-sizing: inherit;
+
+}/*Navigations*/
+
+nav a{
+	width: 33.33%;
+	display:block;
+	float: left;
+	padding: 0.6em 0.75em;
+	background-color: #D14719;
+	text-decoration: none;
+	color:white;
+	margin-bottom: 0.7rem;
+	border: 0.1rem solid #923212;
 }
 
 nav{
-	padding: 0.5rem 1rem 1rem 1rem;
-/*	display: block;
-	text-align: center;
-	background-color: #D14719;*/
-	font-size: 1.5rem;
+    text-align:center;
+    margin:0;
+    padding:0;
 }
 
 nav ol{
-	list-style-type: none;
-	margin: 0;
+	list-style-type:none;
 	padding: 0;
+	margin: 0;
 }
 
 nav li{
-/*	display: inline;
-	background-color: #D14719;
-	color: white;*/
-	padding: 0.5rem 0.75rem;
-	width: 6em;
-	font-size: 1.1rem;
-	display: inline-block;
- 	margin-bottom: 0.3em;
+	padding: 0;
+	margin: 0;
 }
 
 nav a:hover{
 	background-color: #923212;
 
 }/*images*/
+.inset {
+	border: 2px solid #C8C8C8;
+}
 .grains { /*changing img size*/
 	float: left;
 	width: 45%;
@@ -90,13 +101,13 @@ nav a:hover{
 }
 .cereals {
 	float: right;
-	width: 40%;
+	width: 30%;
 	margin-right: 15px;
 
 }
 .quinoa {
 	float: right;
-	width: 45%;
+	width: 35%;
 	margin-right: 15px;
 }
 .peanuts {
@@ -129,12 +140,10 @@ nav a:hover{
 
 }/*footer*/
 footer {
-  background-color: #D14719;
-  padding: 10px;
-  clear: both;
-}
-footer p{
-	text-align: center;
+	background-color: #D14719;
+	padding: 10px;
+	margin: 0;
 	color: #DF7E5E;
-
+	font-weight: 400;
+	text-align: center;
 }
