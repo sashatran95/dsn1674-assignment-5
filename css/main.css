@@ -21,6 +21,7 @@ h1, h2 {
 }
 .legumes{
 	font-size: 2rem;
+	clear: both;
 	font-weight: bold;
 
 }
@@ -41,6 +42,7 @@ h1 {
 	font-size: 2rem;
 	/*magnifying troubls*/
 	background-color: #DF7E5E;
+	clear: both;
 	margin: 0;
 	padding: 1.5rem;
 }
@@ -51,6 +53,15 @@ h3 {
 	padding: 0;
 	text-align: center;
 	color: white;
+}
+.h3rice {
+	float: left;
+	clear: left;
+}
+.h3oats {
+	float: right;
+	clear: right;
+
 }
 header {
 	display: block;
@@ -108,14 +119,14 @@ nav a:hover{
 .cereals {
 	float: right;
 	clear: right;
-	width: 40%;
+	width: 30%;
 	margin: 15px;
 }
 .quinoa {
 	float: right;
 	clear: right;
-	width: 40%;
-	margin: 15px;
+	width: 30%;
+	margin: 15px;8
 }
 .peanuts {
 	float: left;
@@ -135,15 +146,18 @@ nav a:hover{
 }
 .corn{
 	float: center;
+	clear: both;
 	width: 100%;
+	margin-bottom: 0;
 }
 .oats{
-	float: left;
-	width: 20%;
+	float: right;
+	width: 35%;
 }
 .rice{
 	float: left;
-	width: 20%;
+	clear: left;
+	width: 35%;
 
 }/*Dat Grain thingy*/
 .vector-l{
@@ -169,12 +183,15 @@ nav a:hover{
 }
 .dl {
 	float: left;
-}
+}/*Legumes*/
+.ppeanuts, .pbeans, .plents{
+	clear: both;
+
 
 }/*footer*/
 footer {
 	background-color: #D14719;
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 	clear: both;
 	color: #DF7E5E;
