@@ -109,14 +109,15 @@ nav a:hover{
 }
 .grains { /*changing img size*/
 	float: left;
-	width: 45%;
+	width: 50%;
 	margin-left: 1rem;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 }
 .cereals {
 	float: right;
-	width: 30%;
+	clear: right;
+	width: 40%;
 	margin-right: 15px;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -125,7 +126,8 @@ nav a:hover{
 }
 .quinoa {
 	float: right;
-	width: 35%;
+	clear: right;
+	width: 40%;
 	margin-right: 15px;
 	margin-left: 1rem;
 	margin-right: 1rem;
@@ -154,6 +156,19 @@ nav a:hover{
 .rice{
 	float: left;
 	width: 20%;
+
+}/*Dat Grain thingy*/
+.vector-l{
+	width: 3rem;
+	float: left;
+	margin: 1rem;
+
+}
+.vector-r{
+	width: 3rem;
+	float:right;
+	margin: 1rem;	
+
 }/*text wraps*/
 .p1{
 	clear: right;
