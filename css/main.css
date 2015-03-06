@@ -28,7 +28,7 @@ h1 {
 	text-align: center;
 	color: white;
 	/*boxes*/
-	font-size: 3.5rem;
+	font-size: 2rem;
 	background-color: #D14719;
 	margin: 0;
 	padding: 1rem;
@@ -38,11 +38,11 @@ h1 {
 	text-align: center;
 	color: white;
 	/*boxes*/
-	font-size: 3.5rem;
+	font-size: 2rem;
 	/*magnifying troubls*/
 	background-color: #DF7E5E;
 	margin: 0;
-	padding: 0;
+	padding: 1.5rem;
 }
 h3 {
 	background-color: #DF7E5E;
@@ -146,7 +146,14 @@ nav a:hover{
 	float: left;
 	width: 20%;
 	margin-right: 15px;
-
+}
+.oats{
+	float: left;
+	width: 20%;
+}
+.rice{
+	float: left;
+	width: 20%;
 }/*text wraps*/
 .p1{
 	clear: right;
